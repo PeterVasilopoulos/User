@@ -44,3 +44,12 @@ user1.enroll()
 user1.spend_points(50)
 user1.display_info()
 user1.enroll()
+
+user2 = User("Paul", "A", "paul@mail.com", "20")
+user2.enroll()
+user2.spend_points(80)
+user2.display_info()
+
+user3 = User("Jessica", "A", "jessica@mail.com", "20")
+user3.display_info()
+user3.spend_points(40)
